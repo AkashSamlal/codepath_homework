@@ -11,8 +11,13 @@ Time spent: **10** hours spent in total
     - Vulnerability types:
     - Tested in version: 4.1.0
     - Fixed in version: 4.3.0
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![xss](https://user-images.githubusercontent.com/43329669/98197513-f408c100-1ef4-11eb-8f38-457bada8095d.gif)
   - [ ] Steps to recreate: 
+                           1. Login as a user, in this example I am login as an admin 
+                           2. Create a new post, or select your existing post if you have, and be able to edit it
+                           3. Click on the text component 
+                           4. Paste in: <a href="[caption code=" onmouseover=alert('!!!!')  ">Suprise</a>
+                           5. Preview the page, and click on the link and the alert box will pop up
   - [ ] Affected source code:
     - [XSS1 Source Code Error](https://core.trac.wordpress.org/changeset/33359)
 ### 2. Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
@@ -20,7 +25,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types:
     - Tested in version: 4.1.0 (4.0.0 - 4.7.2)
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![xss3](https://user-images.githubusercontent.com/43329669/98197601-17cc0700-1ef5-11eb-9607-2aae59c08478.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [XSS2 Source Code Error](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
@@ -29,7 +34,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types:
     - Tested in version: 4.1.0 (3.6.0 - 4.7.2)
     - Fixed in version: 4.73
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![xss2](https://user-images.githubusercontent.com/43329669/98197553-0420a080-1ef5-11eb-846f-5a1235480e3f.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [XSS3 Source Code Error](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/media-upload.php)
