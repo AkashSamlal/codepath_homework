@@ -21,13 +21,14 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="blue-vuln1.gif">
+![SessionHijackingBlue](https://user-images.githubusercontent.com/43329669/98874340-12684280-2448-11eb-9e3a-81ab9ad08f53.gif)
 
 Vulnerability #2: __________________
 
 Description:
 
-<img src="blue-vuln2.gif">
+
+![SqliBlue](https://user-images.githubusercontent.com/43329669/98874365-201dc800-2448-11eb-86d8-e177424a24dd.gif)
 
 ## Green
 
@@ -35,14 +36,13 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="green-vuln1.gif">
-
+![XSSGreen](https://user-images.githubusercontent.com/43329669/98874389-2e6be400-2448-11eb-832d-f1bfad6dad91.gif)
 Vulnerability #2: __________________
 
 Description:
 
-<img src="green-vuln2.gif">
 
+![UserEnumerationGreen](https://user-images.githubusercontent.com/43329669/98874412-362b8880-2448-11eb-984f-0b89705a4cca.gif)
 
 ## Red
 
@@ -50,14 +50,13 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="red-vuln1.gif">
+![CSRF_Red](https://user-images.githubusercontent.com/43329669/98874274-ed73cf80-2447-11eb-908c-7876bfe3bb7b.gif)
 
 Vulnerability #2: __________________
 
 Description:
 
-<img src="red-vuln2.gif">
-
+![IDORed](https://user-images.githubusercontent.com/43329669/98874327-08464400-2448-11eb-8cf6-a1d299ab8fcf.gif)
 
 ## Notes
 
